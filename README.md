@@ -1,7 +1,8 @@
 #  Responsive Navigation Menu
 
 ### Demo
-* [Responsive Navigation Menu](https://responsive-natigation-menu.netlify.app/)
+* [Netlify](https://responsive-natigation-menu.netlify.app/)
+* [Codepen](https://codepen.io/mustafadalga/pen/poyBeyY)
 
 ### Kullanılan Teknolojiler
  * HTML5  
