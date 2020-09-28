@@ -71,7 +71,7 @@ main {
     top: 1rem;
     right: 2rem;
     z-index: 1;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .hamburger-menu {
@@ -81,6 +81,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
     position: relative;
+    transition: all 0.5s;
 }
 
 .hamburger-menu .line {
@@ -93,6 +94,10 @@ main {
 
 nav.open ul {
     transform: translateX(0);
+}
+
+nav.open .hamburger-menu {
+    transform: rotate(180deg);
 }
 
 nav.open .hamburger-menu .line:nth-of-type(1) {
